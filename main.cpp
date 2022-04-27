@@ -56,7 +56,7 @@ int tamano(char *str)
 string CIFRADO(int a, int b, char *palabra)
 {
     int tam = tamano(palabra);
-    char Abe[28] = "ABCDEFGHIJKLMNÑOPQRSTUVWXYZ";
+    char Abe[28] = "ABCDEFGHIJKLMNÃ‘OPQRSTUVWXYZ";
     string cif("");
     for(;*palabra;palabra++)
     {
@@ -81,7 +81,7 @@ string CIFRADO(int a, int b, char *palabra)
 string DESCIFRADO(int a_prima, int b, char *palabra)
 {
     int tam = tamano(palabra);
-    char Abe[28] = "ABCDEFGHIJKLMNÑOPQRSTUVWXYZ";
+    char Abe[28] = "ABCDEFGHIJKLMNÃ‘OPQRSTUVWXYZ";
     string cif("");
     for(;*palabra;palabra++)
     {
@@ -109,7 +109,7 @@ int main()
     int a = 4 , b = 7 , c = 3 , n = 7 , x , y;
     char palabra[100] = "ELEMENTALMIQUERIDOWATSON";
     char word[100] = "OKHFSNKFNWFCWJHSNCHQYWFSWF";
-    char newpalabra[300] = "SLBCMVRBSHZBTÑNSRQVVMSZBVHÑNBVRQVLALHZBTÑNSRQVWQAXLZWÑNAQFQV"; //27-13
+    char newpalabra[300] = "SLBCMVRBSHZBTÃ‘NSRQVVMSZBVHÃ‘NBVRQVLALHZBTÃ‘NSRQVWQAXLZWÃ‘NAQFQV"; //RPTA: a = 27 - b = 13
     if(EUCLIDES(c,n) == 1)
     {
         cout<< "Inverso(x) " << c << ".x" << "=1 (mod " << n << ")--> " <<INVERSO(c,n)<<endl;
