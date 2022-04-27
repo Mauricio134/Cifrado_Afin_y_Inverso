@@ -108,8 +108,11 @@ int main()
 {
     int a = 4 , b = 7 , c = 3 , n = 7 , x , y;
     char palabra[100] = "ELEMENTALMIQUERIDOWATSON";
+    //WXWBWFGHXBMUKWYMSNRHGCNF
     char word[100] = "OKHFSNKFNWFCWJHSNCHQYWFSWF";
+    //CUANDOUNOENSEÑADOSAPRENDEN
     char newpalabra[300] = "SLBCMVRBSHZBTÑNSRQVVMSZBVHÑNBVRQVLALHZBTÑNSRQVWQAXLZWÑNAQFQV"; //RPTA: a = 27 - b = 13
+    // NOEXISTENPREGUBNTASSINRESPUBESTASOLOPREGUBNTASMALFORMUBLADAS
     if(EUCLIDES(c,n) == 1)
     {
         cout<< "Inverso(x) " << c << ".x" << "=1 (mod " << n << ")--> " <<INVERSO(c,n)<<endl;
