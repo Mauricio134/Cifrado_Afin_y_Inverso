@@ -56,7 +56,7 @@ int tamano(char *str)
 string CIFRADO(int a, int b, char *palabra)
 {
     int tam = tamano(palabra);
-    char Abe[28] = "ABCDEFGHIJKLMNÑOPQRSTUVWXYZ";
+    char Abe[28] = "ABCDEFGHIJKLMN@OPQRSTUVWXYZ";
     string cif("");
     for(;*palabra;palabra++)
     {
@@ -81,7 +81,7 @@ string CIFRADO(int a, int b, char *palabra)
 string DESCIFRADO(int a_prima, int b, char *palabra)
 {
     int tam = tamano(palabra);
-    char Abe[28] = "ABCDEFGHIJKLMNÑOPQRSTUVWXYZ";
+    char Abe[28] = "ABCDEFGHIJKLMN@OPQRSTUVWXYZ";
     string cif("");
     for(;*palabra;palabra++)
     {
@@ -110,7 +110,7 @@ int main()
     char palabra[100] = "ELEMENTALMIQUERIDOWATSON";
     //WXWBWFGHXBMUKWYMSNRHGCNF
     char word[100] = "OKHFSNKFNWFCWJHSNCHQYWFSWF";
-    //CUANDOUNOENSEÑADOSAPRENDEN
+    //CUANDOUNOENSE@ADOSAPRENDEN
     char newpalabra[300] = "SLBCMVRBSHZBTÑNSRQVVMSZBVHÑNBVRQVLALHZBTÑNSRQVWQAXLZWÑNAQFQV"; //RPTA: a = 23 <-> b = 17
     // NOEXISTENPREGUBNTASSINRESPUBESTASOLOPREGUBNTASMALFORMUBLADAS
     if(EUCLIDES(c,n) == 1)
